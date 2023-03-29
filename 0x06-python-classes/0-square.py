@@ -1,3 +1,3 @@
 #!/usr/bin/python3
 class Square:
-    pass #an empty class
+    pass  # an empty class
