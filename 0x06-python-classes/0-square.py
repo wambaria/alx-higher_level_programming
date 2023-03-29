@@ -2,4 +2,5 @@
 # an empty class square
 
 class Square:
-    pass  # an empty class
+    #  An empty class
+    pass
