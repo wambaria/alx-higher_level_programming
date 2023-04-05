@@ -4,5 +4,5 @@ class LockedClass:
 
     def __setattr__(self, name, value):
         if not hasattr(self, name) and name != 'first_name':
-            raise AttributeError(f"{self.__class__.__name__} does not allow creating new instance attributes")
+            raise AttributeError(f"{self.__class__.__name__} attributes")
         super().__setattr__(name, value)
