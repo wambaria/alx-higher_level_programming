@@ -5,7 +5,7 @@ Module for is_same_class method
 
 
 def is_same_class(obj, a_class):
-    """Determines if an object is exactly an instance of a class.
+    """Determines if object is exactly an instance of a class.
 
     Args:
         obj (unknown): object whose type is to be checked.
